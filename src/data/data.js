@@ -6,27 +6,32 @@ const DATA={
        items:[
           {
               id:1,
-              childtitle:'the artice of ?',
-              discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
+              childtitle:'لورم ایپسوم',
+              discription:'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد',
               imgeurl:'https://www.chitrakootweb.com/template/live/img/blog/list-2.jpg',
-              category:'art'
+              category:'art',
+              author:'hasan barati',
+              linkUrl:'loremipsom'
+
 
           },
           {
             id:2,
-            childtitle:'the artice of 2 ?',
-            discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
+            childtitle:'لورم ایپسوم 2 ',
+            discription:'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد',
             imgeurl:'',
-            category:'art'
+            category:'art',
+            author:'hasan barati'
             
         },
         {
             id:3,
-            childtitle:'the artice of 3?',
-            discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
+            childtitle:'لورم ایپسوم 3',
+            discription:'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد',
             imgeurl:'',
 
-            category:'art'
+            category:'art',
+            author:'hasan barati'
         }
        ]    
     },

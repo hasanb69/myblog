@@ -1,16 +1,13 @@
 import React from 'react'
 
-const Sidebar=()=>{
+const Sidebar=({childtitle})=>{
     return(
    
-        <div className="widget sidebar p-3 bg-light">
-            <h4>آخرین مطالب</h4>
+        <div className="widget sidebar p-1 bg-light">
+           
               <ul class="list-group list-group-flush">
-                 <li class="list-group-item"><a href="#">An item</a> </li>
-                 <li class="list-group-item"><a href="#">An item</a></li>
-                 <li class="list-group-item"><a href="#">An item</a></li>
-                 <li class="list-group-item"><a href="#">An item</a></li>
-                 <li class="list-group-item"><a href="#">An item</a></li>
+                 <li class="list-group-item"><a href="#">{childtitle}</a> </li>
+               
          
              </ul> 
          
