@@ -1,28 +1,32 @@
 const DATA={
-    honar:{
-       title:'honar',
+    art:{
+       title:'art',
        id:1,
+       url:'/art',
        items:[
           {
               id:1,
               childtitle:'the artice of ?',
               discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
-              imgeurl:'',
-              category:'honar'
+              imgeurl:'https://www.chitrakootweb.com/template/live/img/blog/list-2.jpg',
+              category:'art'
+
           },
           {
             id:2,
-            childtitle:'the artice of ?',
+            childtitle:'the artice of 2 ?',
             discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
             imgeurl:'',
-            category:'honar'
+            category:'art'
+            
         },
         {
             id:3,
-            childtitle:'the artice of ?',
+            childtitle:'the artice of 3?',
             discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
             imgeurl:'',
-            category:'honar'
+
+            category:'art'
         }
        ]    
     },
@@ -33,21 +37,21 @@ const DATA={
         items:[
            {
                id:1,
-               childtitle:'the artice of ?',
+               childtitle:'the sport of ?',
                discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
                imgeurl:'',
                category:'sport'
            },
            {
              id:2,
-             childtitle:'the artice of ?',
+             childtitle:'the sport of ?',
              discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
              imgeurl:'',
              category:'sport'
          },
          {
              id:3,
-             childtitle:'the artice of ?',
+             childtitle:'the sport of ?',
              discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
              imgeurl:'',
              category:'sport'
@@ -61,3 +65,4 @@ const DATA={
 
 }
   
+export default DATA
