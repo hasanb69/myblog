@@ -4,9 +4,10 @@ import {selectCatForOverview} from '../../../redux/category/category selector'
 import {createStructuredSelector} from 'reselect'
 import Sidebar from '../../sidebar/sidebar'
 import Content from '../content'
-import {Link,Route,withRouter} from 'react-router-dom'
+import {Link,Route,withRouter,Switch} from 'react-router-dom'
 import SinglePost from '../../../component/singlepoost/singlepost.component'
 import './art.css'
+
 const Art=({match,data})=>{
    
     return(
@@ -29,7 +30,10 @@ const Art=({match,data})=>{
                 )}
 
            </div>
-           <Route path={`${match.path}/:linkUrl`}  component={SinglePost}/>
+          
+           <Route path={`/:blog/:category/:linkUrl`}  component={SinglePost}/>
+       
+        
         </div>
     )
    
