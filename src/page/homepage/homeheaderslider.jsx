@@ -4,18 +4,18 @@ const HomeSlider=({items})=>{
 
    
   
-   const find=items.filter((d=>d.type==='slider'))
-
+   const sliders=items.filter((d=>d.type==='slider'))
+  // const slidersbig=items.filter((d=>d.type==='sliderbig'))
 
  // const find=items.map(item=>item)
   //const sec=Array.prototype.concat(...items)
     //const sliders=Array.prototype.concat(...find)
     //console.log(items)
     //const findslider=items.find(data=>data.type ==='slider')
-    console.log(find)
+    //console.log(find)
     return(
 
-        find.map(data=>
+        sliders.map(data=>
             <div className="px-2 col-sm-6 col-lg-4 col-xxl-3" key={data.id}>
          
             <div className="card card-blog"><img className="card-img img-fluid" src={`${data.imgeurl}`} alt="" />

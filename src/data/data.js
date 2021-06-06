@@ -15,6 +15,7 @@ const DATA={
               author:'hasan barati',
               linkUrl:'loremipsom',
               type:'slider'
+          
 
 
           },
