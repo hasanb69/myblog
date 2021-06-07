@@ -7,7 +7,7 @@ const HomePage=({data})=>{
 
     return(
     <div className="content">
-          <div className="row">
+          <div className="row bg-red">
           {data.map((item)=>
                 <HomeSlider key={item.id}  items={item.items} />
               ) }

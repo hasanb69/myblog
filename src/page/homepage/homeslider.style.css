@@ -1,0 +1,13 @@
+.slider.big {
+    width: 60%;
+    height: 300px;
+}
+
+.slider.small img, .slider.big img {
+    height: 300px;
+}
+
+.slider.small {
+    width: 40%;
+    height: 300px;
+}
