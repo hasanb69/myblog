@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link,withRouter} from 'react-router-dom'
 import './homeslider.style.css'
 const HomeSlider=({items})=>{
 
@@ -20,9 +21,10 @@ const HomeSlider=({items})=>{
          
             <div className="card card-blog"><img className="card-img img-fluid" src={`${data.imgeurl}`} alt="" />
               <div className="card-img-overlay overlay-gradient d-flex flex-column justify-content-between">
-                <h5 className="card-title text-white">Revolutionise Your Workspace With Us At Gridworks</h5>
+                <h5 className="card-title text-white"><Link to={`blog/${data.category}/${data.linkUrl}`}>{data.childtitle} </Link></h5>
                 <div className="d-flex flex-wrap align-items-center justify-content-between">
-                  <div><span className="uil fs-3 text-300 align-middle uil-lightbulb-alt"></span><span className="text-white fs--1 mb-0 d-inline-block">Reffering Workspace</span></div><a className="badge badge-pill stretched-link ml-2 badge-success" data-toggle="modal" href="#modal-card">Entrepreneurship</a>
+                 
+                  <Link to={`blog/${data.category}/${data.linkUrl}`} className="badge badge-pill stretched-link ml-2 badge-success" >{data.category}</Link>
                 </div>
               </div>
             </div>
@@ -33,4 +35,4 @@ const HomeSlider=({items})=>{
 
 }
 
-export default HomeSlider
+export default withRouter( HomeSlider)

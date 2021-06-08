@@ -27,7 +27,7 @@ const Psychology=({match,data})=>{
 
    </div>
   
-   <Route path={`/:blog/:category/:linkUrl`}  component={SinglePost}/>
+  
 
 
 </div>

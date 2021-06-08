@@ -1,4 +1,7 @@
+
+
 const DATA={
+
     art:{
        title:'art',
        id:1,
@@ -10,7 +13,7 @@ const DATA={
               childtitle:'لورم ایپسوم',
               abstract:'',
               discription:'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد',
-              imgeurl:'https://www.chitrakootweb.com/template/live/img/blog/list-2.jpg',
+              imgeurl:'https://prium.github.io/grid/assets/img/group/pic-5.png',
               category:'art',
               author:'hasan barati',
               linkUrl:'loremipsom',
@@ -72,7 +75,7 @@ const DATA={
                <p>اهمیت کارها رو اینجوری و با این سوال میشه تعیین کرد : کدوم کار ها اگه انجام نشن هزینه های بیشتری به بار میارن ؟ و یا کدوم کارها اگه انجام بشن سودهای بیشتری نصیبمون خواهند کرد ؟ که البته تو این زمانه چیزی که بهمون فایده نمی رسونه کلا ضرره (استراحت و تفریح هردو به اندازۀ معقولشون معقول و مفیدن) ، اگه اون کار خودش ذاتش هم مضر باشه که دیگه اصلا جمع کن :)
                </p>
                `,
-               imgeurl:'https://files.virgool.io/upload/users/230495/posts/yhuxbelsrnjt/35baucjjirkj.png?x-img=v1/resize,w_700/optimize,q_100',
+               imgeurl:'https://prium.github.io/grid/assets/img/group/pic-7.png',
                category:'psychology',
                author:'hasan barati',
                 linkUrl:'programming',
