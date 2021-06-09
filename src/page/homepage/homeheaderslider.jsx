@@ -5,7 +5,7 @@ const HomeSlider=({items})=>{
 
    
   
-   const sliders=items.filter((d=>d.type.includes('slider')))
+   const sliders=items.filter((d=>d.type.includes('col-lg')))
   // const slidersbig=items.filter((d=>d.type==='sliderbig'))
 
  // const find=items.map(item=>item)
@@ -17,14 +17,14 @@ const HomeSlider=({items})=>{
     return(
         
         sliders.map(data=>
-            <div  className={`${data.type} px-2 col-sm-6 col-lg-4 col-xxl-3 mt-5`} key={data.id}>
+            <div  className={`px-2 col-sm-6 ${data.type}   mt-2`} key={data.id}>
          
             <div className="card card-blog"><img className="card-img img-fluid" src={`${data.imgeurl}`} alt="" />
               <div className="card-img-overlay overlay-gradient d-flex flex-column justify-content-between">
                 <h5 className="card-title text-white"><Link to={`blog/${data.category}/${data.linkUrl}`}>{data.childtitle} </Link></h5>
                 <div className="d-flex flex-wrap align-items-center justify-content-between">
                  
-                  <Link to={`blog/${data.category}/${data.linkUrl}`} className="badge badge-pill stretched-link ml-2 badge-success" >{data.category}</Link>
+                  <Link to={`blog/${data.category}/${data.linkUrl}`} className="badge bg-primary" >{data.category}</Link>
                 </div>
               </div>
             </div>

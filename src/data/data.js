@@ -31,7 +31,7 @@ const DATA={
             category:'art',
             author:'hasan barati',
             linkUrl:'loremipsom2',
-            type:'slider small'
+            type:'col-lg-6'
             
         },
         {
@@ -43,7 +43,7 @@ const DATA={
             linkUrl:'loremipsom3',
             category:'art',
             author:'hasan barati',
-            type:''
+            type:'col-lg-4'
         }
        ]    
     },
@@ -79,7 +79,7 @@ const DATA={
                category:'psychology',
                author:'hasan barati',
                 linkUrl:'programming',
-                type:'slider small'
+                type:'col-lg-4'
            },
            {
              id:5,
@@ -88,7 +88,7 @@ const DATA={
              discription:'Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.',
              imgeurl:'https://files.virgool.io/upload/users/71746/posts/pms3ge6nfwnq/bvqeacmdstm7.jpeg?x-img=v1/resize,w_700/optimize,q_100',
              category:'psychology',
-             type:'slider big'
+             type:'col-lg-6'
          },
          {
              id:6,
