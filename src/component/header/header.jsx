@@ -9,7 +9,7 @@ const Header=()=>{
     <ul className="navbar-nav ">
                <li className="nav-item"><Link to="/" className="nav-link">خانه</Link></li>
                <li className="nav-item"><Link to="/psychology" className="nav-link">روانشناسی</Link></li>
-               <li className="nav-item"><Link to="/art" className="nav-link">هنر</Link></li>
+               <li className="nav-item"><Link to="/creativity" className="nav-link">خلاقیت</Link></li>
                <li className="nav-item"><Link to="/it" className="nav-link">فناوری</Link></li>
     </ul>
   </div>

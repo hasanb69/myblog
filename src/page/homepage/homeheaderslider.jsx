@@ -21,10 +21,12 @@ const HomeSlider=({items})=>{
          
             <div className="card card-blog"><img className="card-img img-fluid" src={`${data.imgeurl}`} alt="" />
               <div className="card-img-overlay overlay-gradient d-flex flex-column justify-content-between">
-                <h5 className="card-title text-white"><Link to={`blog/${data.category}/${data.linkUrl}`}>{data.childtitle} </Link></h5>
+                <h5 className="card-title text-white">
+                   <Link to={`blog/${data.category}/${data.linkUrl}`} className="text-white text-decoration-none">{data.childtitle} </Link>
+                  </h5>
                 <div className="d-flex flex-wrap align-items-center justify-content-between">
                  
-                  <Link to={`blog/${data.category}/${data.linkUrl}`} className="badge bg-primary" >{data.category}</Link>
+                  <Link to={`${data.category}`} className="badge bg-primary" >{data.title}</Link>
                 </div>
               </div>
             </div>

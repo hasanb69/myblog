@@ -1,15 +1,15 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import {Link,Route,withRouter,Switch} from 'react-router-dom'
+
 import Sidebar from '../../sidebar/sidebar'
 import Content from '../content'
-import SinglePost from '../../../component/singlepoost/singlepost.component'
+
 const Psychology=({match,data})=>{
     console.log(match.path)
    return(
     <div className="row">
     <div className="col-md-8">
-    <h1>sport</h1>
+    <h1>مطالب روانشناسی</h1>
     {data[match.path.slice(1)].items.map(({id,...otherprops})=>
         
         <Content Key={id} {...otherprops} mat={match.path}/>
@@ -39,4 +39,4 @@ const mapStateToProps=state=>({
 })
 
 
-export default withRouter(connect (mapStateToProps)(Psychology))
+export default connect (mapStateToProps)(Psychology)

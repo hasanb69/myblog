@@ -6,9 +6,13 @@ const Sidebar=({childtitle})=>{
         <div className="widget sidebar p-1 bg-light">
            
               <ul class="list-group list-group-flush">
-                 <li class="list-group-item"><a href="#">{childtitle}</a> </li>
-               
-         
+           
+            <li className="list-group-item" >
+                {childtitle}
+             </li>
+
+          
+
              </ul> 
          
         </div>
